@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:400,500,700');
+ 
+body {
+    overflow-x: hidden;
+    font-family: 'poppins', sans-serif;   /*-- san-serif is a backup font--*/
+    color: #222;
+}
+/*-- this is the start of the navbar style--*/
+.navbar{
+    padding: .8rem;
+    font-weight: 500;
+}
+.navbar-nav li{
+    padding-right: 25px;
+}
+.navbar img{
+    padding-left: 3rem;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #676e86;
+    font-family: 'sailec';
+    font-style: normal;
+    font-size: 20px; 
+    letter-spacing: .1rem;
+}
+.sancho{
+    background: #5474ff;
+    border-radius: 5px;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#5474ff;
+}
+
+/*-- this is the end of the navbar style--*/
+/* background image */
+.view {
+    min-height: 100vh;
+    background-size: cover;
+}
+.smalling{
+    position: absolute;
+    top: 38%;
+    width: 100%;
+    right: 0;
+    left: 0;
+
+}
+.smalling h1{
+    font-family: 'sailec';
+    font-style: normal;
+    font-size: 48px;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    
+
+}
+.smalling h3{
+    font-size: 17px;
+    padding-bottom: 1.6rem;
+    font-weight: 500;
+    font-family: 'sailec';
+    font-style: normal;
+    letter-spacing: 0.15em;
+    color: #f4f4f4;
+}
+/*end background image */
+
+.padding {
+    padding-top: 3rem;  
+} 
+.col {
+    padding-left: 2rem;
+    padding-right: 2rem;
+} 
+.col img{
+    height: 2rem;
+    
+} 
+.jumbotron{
+    background: #fafbff;
+}
+/*two column section*/
+.seun1 {
+    padding-top: 2rem;
+    margin: 2rem;  
+}   
+.seun2 h2{
+    padding-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 5rem; 
+    font-family: 'sailec';
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 65px;
+    color:#2b3145 ;
+
+  }
+  .seun2  p{
+    margin-left: 2rem;
+    margin-right: 5rem; 
+    font-family: 'sailec';
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    font-size: 18px;
+    color: #676e86;
+}
+/*text block section*/
+
+.text-block {
+    background-color:white;
+    width: 450px;
+    height: 86px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 2px 4px 20px rgba(178, 191, 251, 0.25);
+    border-radius: 10px;
+     
+ }
+ .peace{
+    padding-top: 1.9rem;
+    padding-left: 2rem;
+    color:#c0c1c2;
+    font-family:'sailec';
+    font-style:normal ;
+    font-weight: bold;
+    font-size: 22px;
+ }
+ .peace1{
+    padding-left: 2rem;
+    padding-top: 2.1rem;
+    color:#a9abb1;
+    font-family:'sailec';
+    font-style:normal ;
+    font-weight: normal;
+    font-size: 18px;
+ }
+ span{
+     font-weight: bold;
+ }
+ .kemi{
+    padding-top: 1.9rem;
+    padding-left: 4rem;
+    color:#c0c1c2;
+    font-family:'sailec';
+    font-style:normal ;
+    font-weight: bold;
+    font-size: 22px;
+ }
+ .kemi1{
+    padding-left: 2rem;
+    padding-top: 2.1rem;
+    color:#a9abb1;
+    font-family:'sailec';
+    font-style:normal ;
+    font-weight: normal;
+    font-size: 18px;
+ }
+ .itunu{
+    padding-top: 1.9rem;
+    padding-left: 6rem;
+    color:#c0c1c2;
+    font-family:'sailec';
+    font-style:normal ;
+    font-weight: bold;
+    font-size: 22px;
+ }
+ .itunu1{
+    padding-left: 2rem;
+    padding-top: 2.1rem;
+    color:#a9abb1;
+    font-family:'sailec';
+    font-style:normal ;
+    font-weight: normal;
+    font-size: 18px;
+ }
+ /*end of text block section*/
+ /*end of two column section*/
+
+ /*jumbotron section*/
+.lekan{
+    background: #5474ff;
+    padding-left: 5rem;
+}
+.lid h6{
+    color:#b2bffb;
+    font-family:'sailec';
+    font-style:normal ;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.3em;
+}
+.lid p{
+    color:#ffffff;
+    font-family:'sailec';
+    font-style:normal ;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+}
+.welcome h1{
+    color:#2b3145;
+    font-family:'sailec';
+    font-style:normal ;
+    font-weight: bold;
+    font-size: 57px;
+    letter-spacing: 0.05em;
+}
+.welcome p{
+    color:#676e86;
+    font-family:'sailec';
+    font-style:normal ;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+} 
+.jay{
+   color:#5474ff ;  
+} 
+/*--location--*/
+.fa-dot-circle{
+    color:#5474ff ;
+    font-size: 24px;
+}
+.bim{
+    padding-left: 32rem;
+}
+.sim{
+    padding-left: 27rem;
+}
+
+.bim1{
+    padding-left: 70rem;
+}
+.sim1{
+    padding-left: 65rem;
+}
+
+.bim2{
+    padding-left: 20rem;
+}
+.sim2{
+    padding-left: 15rem;
+}
+
+.bim3{
+    padding-left: 40rem;
+}
+.sim3{
+    padding-left: 35rem;
+}
+
+.bim4{
+    padding-left: 60rem;
+}
+.sim4{
+    padding-left: 55rem;
+}
+
+.bim5{
+    padding-left: 25rem;
+}
+.sim5{
+    padding-left: 20rem;
+}
+.ayo{
+    background-color:white;
+    width: 200px;
+    height: 68px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 2px 4px 20px rgba(178, 191, 251, 0.25);
+    border-radius: 10px;
+}
+.ayo h6{
+    color:#676e86;
+    font-family:'sailec';
+    font-style:normal ;
+    font-weight: normal;
+    font-size: 16px;
+    padding-top: 1rem;
+}
+.ayo p{
+    color:#c0c1c2;
+    font-family:'sailec';
+    font-style:normal ;
+    font-weight: normal;
+    font-size: 9px;
+}
+/*--end of location--*/
+/*--two colunm section--*/
+
+.cray h5{
+    padding-top: 4rem;
+    margin-left: 5rem;
+    margin-right: 1rem; 
+    font-family: 'sailec';
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    color: #676e86;
+}
+.cray h2{
+    padding-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 1rem; 
+    font-family: 'sailec';
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 48px;
+}
+.cray p{
+    margin-left: 5rem;
+    margin-right: 1rem; 
+    font-family: 'sailec';
+    font-style: normal;
+    font-weight: normal; 
+    font-size: 14px;
+    letter-spacing: 0.08rem;
+    color: #676e86;
+}
+.cray2 h6{
+    margin-left: 6rem;
+    margin-right: 1rem; 
+    font-family: 'sailec';
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 18px;
+    letter-spacing: 0.05rem;
+    color: #676e86;
+}
+
+.img-fluid{
+    padding-left: 4rem;
+}
+.heading-underline{
+    width: 7.7rem;
+    height: .2rem;
+    background-color:#5474ff;
+    margin-left: 5rem;
+    margin-right: 1rem; 
+}
+/*--why choose us section--*/
+.bia h6{
+    font-family: 'sailec';
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 14px;
+    letter-spacing: 0.05rem;
+    color: #676e86; 
+}
+.bia h2{
+    font-family: 'sailec';
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 48px;
+    letter-spacing: 0.05rem;
+    color: #2b3145; 
+}
+.bisi{
+    padding-left: 2rem;
+}
+.funny{
+    font-family: 'sailec';
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 24px;
+    letter-spacing: 0.05rem;
+    color: #676e86; 
+    padding-left: 0.9rem;
+}
+.bisi p{
+    font-family: 'sailec';
+    font-style: normal;
+    font-weight: 300; 
+    font-size: 14px;
+    letter-spacing: 0.05rem;
+    color: #676e86; 
+    padding-top: .8rem;
+}
+/*--why choose us section--*/
+
+.lam{
+    padding-top: 3rem;  
+}
+.lam h2{
+    padding-top: 2rem;
+    font-family: 'sailec';
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 36px;
+    letter-spacing: 0.05rem;
+    color: #676e86;   
+}
+
+.lad{
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.card{
+    width: 393px;
+    height: 363px;
+    padding-bottom: 3rem;
+}
+.card-img-top{
+    width: 166px;
+    height: 166px;
+    margin-left: 6rem; 
+}
+.tutu p{
+    font-family: 'sailec';
+    font-style: normal;
+    font-weight: 300; 
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    color: #676e86;   
+}
+.tutu h4{
+    font-family: 'sailec';
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 14px;
+    letter-spacing: 0.05rem;
+    color: #676e86;   
+}
+
